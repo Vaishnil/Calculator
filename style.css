@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+  background-color: aliceblue;
+transition: transform 0.3s ease-in;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 8px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 35px 0px 0px 0px;
+  
+    
+
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+
+}
+.sidebar nav li a:hover{
+    color: rgb(163, 162, 162);
+}
+
+.main{
+   
+    width: 90vw;
+}
+.contaner{
+    display: flex;
+}
+.infocontaner{
+    margin: 50px auto;
+    height: 75vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    margin: 5vh;
+   
+ 
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 8vh;
+font-family: 'Fira Sans', sans-serif;
+}
+.name{
+font-size: 11vh;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 8vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moreabout{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.button{
+    margin-top: 2vh;
+}
+.button button{
+border-radius: 20px;
+padding: 10px;
+font-weight: bold;
+cursor: pointer;
+}
+.button button:hover{
+    background-color: black;
+    color: aliceblue
+}
+.contactform{
+    margin: 10vh auto;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    width: 50vw;
+    border: 2px solid black;
+}
+.mb-3{
+   padding: 10px;
+    
+}
+.mb-31{
+    padding: 10px;
+}
+.btn{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px; 
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.formtext{
+    font-size: 8px;
+}
+.main h2 {
+text-align: center;
+margin-top: 10vh;
+}
+.projectslist{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.projectslist h3{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.projectslist p{
+    font-family: 'Fira Sans', sans-serif;
+}
+.aboutcontaner{
+    font-family: 'Fira Sans', sans-serif;
+}
+.am{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+.msk{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+.aboutcontaner p{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px; 
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+
+}
+.close{
+    margin: 0px 40px
+}
+.sidebarGo{
+    transform: translate(-444px ,0px);
+}
+@media (max-width:700px){
+    *{
+        /* background-color: black; */
+    }
+    .sidebar{
+        transform: translate(-444px ,0px);
+        position: absolute;
+    }
+}
+
+
