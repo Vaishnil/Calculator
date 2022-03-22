@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 5vh;
+        }
+
+        .formstyle {
+            margin: 0px auto;
+            padding: 0px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        form {
+            border: 2px solid black;
+            width: 50vw;
+            height: 80vh;
+            text-align: center;
+            background-color: rgb(240, 205, 164);
+        }
+
+        .ans {
+            width: 90%;
+            height: 8vh;
+            margin-top: 2vh;
+            font-size: 6vh;
+        }
+
+        .bn {
+            width: 30%;
+            height: 6vh;
+            margin-top: 2vh;
+            background-color: black;
+            color: aliceblue;
+            font-size: 5vh;
+        }
+
+        .bn1 {
+            width: 90%;
+            height: 6vh;
+            margin-top: 2vh;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>calculator using HTML CSS & JS</h1>
+    <div class="formstyle">
+        <form name="form">
+
+            <input class="ans" type="text" name="answer"><br>
+            <input class="bn" type="button" value=" 1 " onclick="form.answer.value +='1'">
+            <input class="bn" type="button" value=" 2 " onclick="form.answer.value +='2'">
+            <input class="bn" type="button" value=" 3 " onclick="form.answer.value +='3'">
+            <br>
+            <input class="bn" type="button" value=" 4 " onclick="form.answer.value +='4'">
+            <input type="button" class="bn" value=" 5 " onclick="form.answer.value +='5'">
+            <input type="button" value=" 6 " class="bn" onclick="form.answer.value +='6'">
+            <br>
+            <input class="bn" type="button" value=" 7 " onclick="form.answer.value +='7'">
+            <input type="button" class="bn" value=" 8 " onclick="form.answer.value +='8'">
+            <input type="button" value=" 9 " class="bn" onclick="form.answer.value +='9'">
+            <br>
+            <input class="bn" type="button" value=" + " onclick="form.answer.value +='+'">
+            <input class="bn" type="button" value=" - " onclick="form.answer.value +='-'">
+            <input class="bn" type="button" value=" * " onclick="form.answer.value +='*'">
+
+            <br>
+            <input class="bn" type="button" value=" / " onclick="form.answer.value +='/'">
+            <input class="bn" type="button" value=" 0 " onclick="form.answer.value +='0'">
+            <input class="bn" type="button" value=" = " onclick="form.answer.value = eval(form.answer.value)">
+            <br>
+            <input class="bn1" type="button" value="Clear All " onclick="form.answer.value =''">
+
+        </form>
+    </div>
+</body>
+
+</html>
